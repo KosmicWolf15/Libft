@@ -6,7 +6,7 @@
 /*   By: pgarcia- <pgarcia-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 16:18:25 by pgarcia-          #+#    #+#             */
-/*   Updated: 2022/01/25 20:09:29 by pgarcia-         ###   ########.fr       */
+/*   Updated: 2022/02/01 21:18:33 by pgarcia-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	size_t	len;
 
 	cnt = 0;
-	if (!dest || !src)
-		return (0);
 	len = ft_strlen(src);
 	if (!size)
 		return (len);

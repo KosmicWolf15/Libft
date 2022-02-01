@@ -6,7 +6,7 @@
 /*   By: pgarcia- <pgarcia-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 19:02:38 by pgarcia-          #+#    #+#             */
-/*   Updated: 2022/01/29 18:22:38 by pgarcia-         ###   ########.fr       */
+/*   Updated: 2022/02/01 21:19:17 by pgarcia-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,6 @@ char	*ft_strnstr(const char *str, const char *substr, size_t len)
 	size_t	cnt2;
 
 	cnt = 0;
-	if (!str)
-		return ((char *)substr);
 	if (substr[0] == '\0')
 		return ((char *)str);
 	while (str[cnt] && len > cnt)
